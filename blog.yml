@@ -1,0 +1,11 @@
+---
+:posts:
+- !ruby/struct:Post
+  title: First post!
+  body: antani!!!
+  category: &70321114525720 !ruby/struct:Category
+    name: :food
+- !ruby/struct:Post
+  title: whoho second!
+  body: ahuauahuaaha
+  category: *70321114525720
